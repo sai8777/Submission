@@ -25,10 +25,10 @@ The following project uses no open source projects to work properly:
 
 ## Installation
 
-Apache Spark installation - https://spark.apache.org/news/index.html
-Apache Kafka installation - https://kafka.apache.org/downloads
-Apache Hbase installation - https://hbase.apache.org/downloads.html
-Elastic search installation -https://www.elastic.co/downloads/elasticsearch
+- Apache Spark installation - https://spark.apache.org/news/index.html
+- Apache Kafka installation - https://kafka.apache.org/downloads
+- Apache Hbase installation - https://hbase.apache.org/downloads.html
+- Elastic search installation -https://www.elastic.co/downloads/elasticsearch
 
 ## Dependencies
 - happybase -To connect to hbase from Python 
