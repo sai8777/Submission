@@ -49,7 +49,7 @@ pip install happybase
 Note : Start the server for Apache kafka and Apache Hbase 
 Create hbase table:
 ```
-python create_hbase_table/py
+python create_hbase_table.py
 ```
 Create sample data in csv format for streaming 
 ```sh
