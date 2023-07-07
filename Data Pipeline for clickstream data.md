@@ -55,7 +55,7 @@ Create sample data in csv format for streaming
 ```sh
 python sampledata.py
 ```
-Start the producer and consumer this will write the data to Hbase:
+Start the producer and consumer to read the data from stream and write the data to Hbase:
 - use producer_send_file.py to send file 
 - use producer_folder_dir.py to send csv file in a directory 
 ```sh 
@@ -64,7 +64,7 @@ Start the producer and consumer this will write the data to Hbase:
 ```sh 
 python producer_send_file.py
 ```
-To tread datafrom hbase and store it elasticsearch with indexing:
+To read data from hbase and store it elasticsearch with indexing:
 ```sh
 ./bin/spark-submit --jars  elasticsearch-spark-30_2.12-7.16.3.jar /home/hp/hbase_spark.py
 ```
