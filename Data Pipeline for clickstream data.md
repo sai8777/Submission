@@ -11,7 +11,7 @@ user_agent_data:browser, operating system, and device
 - Periodically process the stored clickstream data in any data store by aggregating the data by URL and country,and calculating the number of clicks, unique users, and average time spent on each URL by users from each country.
 - Index the processed data in Elasticsearch.
 - ## Assumption
-- The data streamed from a website is stored in csv file .
+- The data stream details are stored in a csv file .
 
 ## Tech
 
